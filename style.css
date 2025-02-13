@@ -19,14 +19,14 @@ a {
 h1 {
     font-family: 'times new Roman', sans-serif;
     color: rgb(236, 22, 22);
-    font-size: 13px;
+    font-size: 10px;
 }
 h2 {
     font-family: 'Montserrat', sans-serif;
 }
 h3 {
     font-family: 'times new Roman', sans-serif;
-    font-size: 10px;
+    font-size: 8px;
 }
 
 /* Header Section */
@@ -46,7 +46,7 @@ header .logo {
 }
 
 header h1 {
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 700;
     margin-bottom: 10px;
 }
@@ -74,7 +74,7 @@ nav ul li {
 
 nav ul li a {
     color: rgb(236, 22, 22);
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 400;
     padding: 10px 20px;
     transition: background-color 0.3s ease;
