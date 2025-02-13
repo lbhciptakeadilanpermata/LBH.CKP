@@ -1,0 +1,184 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+h1 {
+    font-family: 'times new Roman', sans-serif;
+    color: rgb(236, 22, 22);
+    font-size: 20px;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+h3 {
+    font-family: 'times new Roman', sans-serif;
+    font-size: 16px;
+}
+
+/* Header Section */
+header {
+    background-image: url('BGRSD.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 200px 0;
+}
+
+header .logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* Navigation Bar */
+nav {
+    background-image: url('BG.jpg');
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: rgb(236, 22, 22);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #007BFF;
+    border-radius: 5px;
+}
+
+/* Content Sections */
+.section {
+    background-image: url('BAD.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 40px 0;
+}
+
+.content-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.section-img {
+    width: 160%;
+    max-width: 300px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section p {
+    font-size: 18px;
+    color: #000000;
+}
+
+/* WhatsApp Button */
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.whatsapp-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-logo:hover {
+    transform: scale(1.1);
+}
+
+/* Styling untuk bagian Media Cyber */
+#media-cyber .content-container {
+    text-align: center;
+    padding: 40px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#media-cyber h2 {
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+#media-cyber p {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.media-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.3s ease;
+}
+
+.media-link:hover {
+    transform: scale(1.1);
+}
+
+.media-icon {
+    width: 30px;
+    height: 30px;
+}
