@@ -19,14 +19,14 @@ a {
 h1 {
     font-family: 'times new Roman', sans-serif;
     color: rgb(236, 22, 22);
-    font-size: 20px;
+    font-size: 15px;
 }
 h2 {
     font-family: 'Montserrat', sans-serif;
 }
 h3 {
     font-family: 'times new Roman', sans-serif;
-    font-size: 16px;
+    font-size: 10px;
 }
 
 /* Header Section */
@@ -52,7 +52,7 @@ header h1 {
 }
 
 header p {
-    font-size: 24px;
+    font-size: 14px;
     font-weight: 500;
 }
 
@@ -183,11 +183,7 @@ nav ul li a:hover {
     height: 30px;
 }
 body {
-    font-size: 16px;
+    font-size: 14px;
 }
 
-@media (max-width: 768px) {
-    body {
-        font-size: 14px; /* Mengurangi ukuran font di layar mobile */
-    }
-}
+
