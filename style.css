@@ -19,7 +19,7 @@ a {
 h1 {
     font-family: 'times new Roman', sans-serif;
     color: rgb(236, 22, 22);
-    font-size: 15px;
+    font-size: 13px;
 }
 h2 {
     font-family: 'Montserrat', sans-serif;
@@ -46,13 +46,13 @@ header .logo {
 }
 
 header h1 {
-    font-size: 38px;
+    font-size: 18px;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
 header p {
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 500;
 }
 
@@ -74,8 +74,8 @@ nav ul li {
 
 nav ul li a {
     color: rgb(236, 22, 22);
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 400;
     padding: 10px 20px;
     transition: background-color 0.3s ease;
 }
@@ -102,7 +102,7 @@ nav ul li a:hover {
 }
 
 .section h2 {
-    font-size: 36px;
+    font-size: 26px;
     margin-bottom: 20px;
 }
 
@@ -115,7 +115,7 @@ nav ul li a:hover {
 }
 
 .section p {
-    font-size: 18px;
+    font-size: 14px;
     color: #000000;
 }
 
